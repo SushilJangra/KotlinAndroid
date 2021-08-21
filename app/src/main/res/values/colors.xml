@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    <color name="theme_light">#FFDF83</color>-->
+    <!--    <color name="theme_mid">#FFBD39</color>-->
+    <!--    <color name="theme_dark">#C69400</color>-->
+
+    <color name="theme_light">#FF7569</color>
+    <color name="theme_mid">#EA4335</color>
+    <color name="theme_dark">#B81305</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="black">#FF000000</color>
+    <color name="gray_dark">#FF707070</color>
+    <color name="gray_mid">#FFaaaaaa</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>

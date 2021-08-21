@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--appLevel-->
+    <dimen name="app_padding">24dp</dimen>
+    <dimen name="app_padding_vertical">12dp</dimen>
+
+    <!--font-->
+    <dimen name="head_font">18sp</dimen>
+    <dimen name="title_font">16sp</dimen>
+    <dimen name="subtitle_font">14sp</dimen>
+
+    <!--View-->
+    <dimen name="edit_text_height">56dp</dimen>
+    <dimen name="radius_big">32dp</dimen>
+    <dimen name="radius_mid">16dp</dimen>
+    <dimen name="login_logo_size">40dp</dimen>
+
+    <!--general-->
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+
+</resources>

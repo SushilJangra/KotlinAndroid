@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KotlinAndroidProject</string>
+    <string name="logo_text">SJ</string>
+    <string name="sign_in">Sign in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="email_address">Enter email</string>
+    <string name="no_account">Don\'t have an account? Create account</string>
+    <string name="create_account"><u>Create account</u></string>
+    <string name="or_using">or sign in using</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="create_pass">Enter password</string>
+</resources>
