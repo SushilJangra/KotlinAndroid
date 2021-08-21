@@ -3,7 +3,10 @@ package com.example.kotlinandroidproject.activity
 import android.os.Bundle
 import android.text.SpannableString
 import android.text.method.LinkMovementMethod
+import android.text.style.ClickableSpan
 import android.text.style.UnderlineSpan
+import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.example.kotlinandroidproject.R
@@ -19,6 +22,12 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val spannableString = SpannableString(getString(R.string.no_account)).apply {
+            setSpan(object : ClickableSpan() {
+                override fun onClick(widget: View) {
+                    Toast.makeText(this@LoginActivity, "Open signup page", Toast.LENGTH_SHORT)
+                        .show()
+                }
+            },this.length - 14, this.length, 0)
             setSpan(UnderlineSpan(), this.length - 14, this.length, 0)
         }
         binding.tvCreateAccount.apply {
